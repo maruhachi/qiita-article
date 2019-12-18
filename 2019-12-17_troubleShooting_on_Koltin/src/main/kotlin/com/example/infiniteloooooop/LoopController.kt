@@ -8,7 +8,7 @@ import java.time.LocalDateTime
 
 @Controller
 class LoopController(
-        var mm: HashMap<String, String>
+        var mm: MutableMap<String, String>
 ) {
 
     @ResponseBody
